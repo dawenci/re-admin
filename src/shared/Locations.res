@@ -1,0 +1,8 @@
+let error404 = Location.make("/#/404")
+let home = Location.make("/")
+let settings = Location.make("/#/settings")
+let register = Location.make("/#/register")
+let login = Location.make("/#/login")
+let article = (~slug) => Location.make(`/#/article/${slug}`)
+let profile = (~username) => Location.make(`/#/profile/${username}`)
+let favorited = (~username) => Location.make(`/#/profile/${username}/favorites`)

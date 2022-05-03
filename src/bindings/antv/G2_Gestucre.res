@@ -1,0 +1,3 @@
+module GestucreController = {
+  type t
+}

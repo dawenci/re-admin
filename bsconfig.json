@@ -1,0 +1,32 @@
+{
+  "name": "re-admin",
+  "namespace": true,
+  "suffix": ".bs.js",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": [
+    "-open Belt",
+    "-bs-super-errors",
+    "-bs-no-version-header"
+  ],
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": [
+    "@rescript/react",
+    "@ryyppy/rescript-promise",
+    "bs-fetch",
+    "bs-axios",
+    "rescript-webapi"
+  ],
+  "bs-dev-dependencies": [],
+  "refmt": 3
+}

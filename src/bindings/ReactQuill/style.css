@@ -1,0 +1,10 @@
+.quill {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.ql-toolbar {
+  flex: 0 0 auto;
+}
+.ql-container {
+  flex: 1 1 100%;
+}

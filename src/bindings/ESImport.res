@@ -1,0 +1,1 @@
+@val external dynamic: string => Js.Promise.t<'a> = "import"
